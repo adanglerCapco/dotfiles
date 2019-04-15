@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-git config --global user.name "Iramis Valentin"
-git config --global user.email iramis.valentin@capco.com
+git config --global user.name "Alexander Dangler"
+git config --global user.email alexander.dangler@capco.com
 
 cd "$(dirname "${BASH_SOURCE}")";
 

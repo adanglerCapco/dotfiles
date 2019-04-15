@@ -4,25 +4,21 @@ export M2="$M2_HOME/bin"
 export MAVEN_OPTS="-Xmx1024m"
 
 export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
-export ANDROID_HOME="/Users/ivln/Library/Android/sdk"
+export ANDROID_HOME="/Users/adng/Library/Android/sdk"
 
 export CHROME="/usr/local/bin/chromedriver"
 export FIREFOX="/usr/local/bin/geckodriver"
-export PYTHON_THREE="/Users/ivln/Library/Python/3.7/bin"
+export PYTHON_THREE="/Users/adng/Library/Python/3.7/bin"
 
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Add `~/bin` to the `$PATH`
 export USER_BIN="$HOME/bin";
 export BIN_PATHS="$USER_BIN:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 export ANDROID_JAVA="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME:$JAVA_HOME/bin"
-PATH="/usr/local/bin:/usr/local/sbin:$PATH:$USER_BIN:$ANDROID_JAVA:$PYTHON_THREE:$CHROME:$FIREFOX:$MAVEN:$M2"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH:$USER_BIN:$ANDROID_JAVA:$PYTHON_THREE:$CHROME:$FIREFOX:$MAVEN:$M2"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
